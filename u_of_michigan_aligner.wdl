@@ -220,6 +220,7 @@ workflow TopMedAligner {
           author : "Mr. Foo"
           email : "foo@foo.com"
           description: "This is a cool workflow
+
           test test
           ### Checking To See Syntax Applies"
       }
