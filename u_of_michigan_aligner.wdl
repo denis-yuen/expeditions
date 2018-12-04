@@ -217,10 +217,12 @@ workflow TopMedAligner {
       File aligner_output_crai = PostAlign.output_crai_file
   }
   meta {
-          author : "Mr. Foo"
+          author : "Mr. Bar"
           email : "foo@foo.com"
           description: "This is a cool workflow
-          ### Checking To See Syntax Applies"
+          \\n test test
+          ### Checking To See Syntax Applies \
+          trying another line"
       }
 }
 
